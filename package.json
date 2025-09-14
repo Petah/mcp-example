@@ -1,0 +1,46 @@
+{
+  "name": "@petah/mcp-example",
+  "version": "1.0.0",
+  "description": "Example MCP server that provides a hello world tool",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-example": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "example",
+    "hello-world"
+  ],
+  "author": "petah",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/petah/mcp-example.git"
+  },
+  "homepage": "https://github.com/petah/mcp-example#readme",
+  "bugs": {
+    "url": "https://github.com/petah/mcp-example/issues"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
