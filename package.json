@@ -1,10 +1,10 @@
 {
-  "name": "@petah/mcp-example",
-  "version": "1.0.0",
+  "name": "mcp-example-petah",
+  "version": "1.0.1",
   "description": "Example MCP server that provides a hello world tool",
   "main": "dist/index.js",
   "bin": {
-    "mcp-example": "dist/index.js"
+    "mcp-example-petah": "dist/index.js"
   },
   "scripts": {
     "build": "tsc",
